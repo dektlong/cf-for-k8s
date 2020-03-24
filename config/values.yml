@@ -135,6 +135,16 @@ log_cache_client:
   id: "" #! comment
   secret: "" #! comment
 
+metric_proxy:
+  ca:
+    secret_name: "metric-proxy-ca"
+    crt: ""
+    key: ""
+  cert:
+    secret_name: "metric-proxy-cert"
+    crt: ""
+    key: ""
+
 kpack:
   registry:
     hostname: ""
